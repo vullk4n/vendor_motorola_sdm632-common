@@ -205,7 +205,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "WfdService",
 	owner: "motorola",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	apk: "proprietary/system/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -284,7 +284,7 @@ android_app_import {
 dex_import {
 	name: "WfdCommon",
 	owner: "motorola",
-	jars: ["proprietary/framework/WfdCommon.jar"],
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 prebuilt_etc_xml {
@@ -299,7 +299,7 @@ prebuilt_etc_xml {
 android_app_import {
 	name: "MotoDolbyV3",
 	owner: "motorola",
-	apk: "proprietary/app/MotoDolbyV3/MotoDolbyV3.apk",
+	apk: "proprietary/system/app/MotoDolbyV3/MotoDolbyV3.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -310,7 +310,7 @@ android_app_import {
 android_app_import {
 	name: "daxService",
 	owner: "motorola",
-	apk: "proprietary/priv-app/daxService/daxService.apk",
+	apk: "proprietary/system/priv-app/daxService/daxService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
