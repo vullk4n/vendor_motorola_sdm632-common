@@ -672,7 +672,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     TimeService \
     QtiTelephonyService \
-    datastatusnotification \
     ims \
     qcrilmsgtunnel \
     QtiTelephonyServicelibrary \
